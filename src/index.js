@@ -6,14 +6,6 @@ const exampleData = {
   typeInfo: 'example',
 }
 
-const exampleData2 = {
-  ...exampleData,
-  typeClass: 'string',
-  typeMode: true,
-}
-
-
 console.log(exampleData);
-console.log(exampleData2);
 
 new App();
