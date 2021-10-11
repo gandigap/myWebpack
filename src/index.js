@@ -1,11 +1,5 @@
-import './styles/index.scss';
-import App from './app';
+import { render } from "react-dom";
 
-const exampleData = {
-  typeID: 2,
-  typeInfo: 'example',
-}
+import App from "./components/App";
 
-console.log(exampleData);
-
-new App();
+render(<App />, document.getElementById("root"));

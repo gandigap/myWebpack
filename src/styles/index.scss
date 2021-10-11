@@ -1,1 +1,10 @@
-@use 'global';
+@use "variables";
+@use "global";
+
+.test {
+  background: url("../images/test.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  width: 100%;
+}
